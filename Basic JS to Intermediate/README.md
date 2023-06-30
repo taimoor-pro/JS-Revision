@@ -131,3 +131,45 @@ script5.js
 * ●	Getters and setters
 * ●	Static methods and properties
 */
+
+
+
+// ---------------------------------------------Summery----------------------------------------------------------
+Course syllabus
+
+This course is the second of a series that aims to help you learn more about web development. 
+
+In this course, you will explore the following:
+
+- Module 1: Introduction to JavaScript
+
+In this module, you are introduced to JavaScript. You'll learn why JavaScript is so integral to software development. And you'll get an overview of how to write JavaScript code inside the browser. Furthermore, you will learn about the most common operators as well as conditional statements and loops.
+
+After completing this module, you will be able to:
+
+    Explain the importance of JavaScript in software development
+
+    Demonstrate how to write JavaScript code inside the browser
+
+    Demonstrate how to write basic JavaScript code
+
+    List common operators, conditional statements and loops
+
+    Demonstrate how to use variables and output their value in the console
+
+
+- Module 2: The building blocks of a program
+
+Here you'll learn how to use objects, arrays and functions. In addition, you will learn about the most common built-in methods, and the difference between undefined, null and empty strings. And you'll explore both error handling and defensive programming.
+
+After completing this module, you will be able to:
+
+    Build and use objects, arrays, and functions
+
+    List some common built-in methods on built-in objects
+
+    Describe handling bugs and errors using try, catch, throw, and defensive programming
+
+    Explain the difference between undefined, null, and empty strings  
+
+    Demonstrate how to write basic code using arrays, objects and functions   

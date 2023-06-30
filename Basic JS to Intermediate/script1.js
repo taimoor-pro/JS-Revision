@@ -1,4 +1,25 @@
 "use strict";
+var cubes = 'ABCDEFG';
+//styling console output using CSS with a %c format specifier
+var styles = "font-size: 40px; border-radius: 10px; border: 1px solid blue; background: pink; color: purple";
+for (var i = 0; i < cubes.length; i++) {
+    console.log("%c" + cubes[i], styles)
+}
+
+var overtime = 1;
+overtime += 2;
+overtime += 1;
+overtime += 2;
+overtime += 3;
+console.log(overtime); // 9
+
+var longString = "";
+longString += "Once";
+longString += " upon";
+longString += " a";
+longString += " time";
+longString += "...";
+console.log(longString); // "Once upon a time..."
 
 var namee = "Taimoor nawaz";
 console.log(namee);

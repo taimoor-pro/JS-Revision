@@ -96,3 +96,24 @@ Project-3 (Background Color Switcher)
 * ●	Now you know JavaScript in Great Details
 * ●	What next? 
 */
+
+<!-- Summery  -->
+- Module 3: Programming paradigms
+
+This module is about functional programming and the object oriented programming paradigm. You will learn what scope is in JavaScript. You'll explore the differences between var, let and const. And you'll learn how to use classes and inheritance in object oriented programming. Additionally, you'll explore how to use write JavaScript using modern features like spread and rest.  You will build code that can manipulate the DOM and handle events. And you will use JSON in JavaScript.
+
+After completing this module, you will be able to:
+
+    Outline the tenets of the functional programming and object oriented programming paradigm
+
+    Describe how scope works in JavaScript
+
+    List the differences between var, let, and const
+
+    Use classes and inheritance in OOP in JavaScript
+
+    Write JavaScript code using more modern features like spread, rest, template strings and modules
+
+    Build code that manipulates the DOM and handles events
+
+    Use JSON in JavaScript

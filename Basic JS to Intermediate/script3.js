@@ -160,6 +160,13 @@ const isOdds = myNumList.filter((nums) => nums % 2 != 0);
 console.log(isOdds);
 console.log("\n\n\n");
 
+const cities = ["London", "Liverpool", "Totnes", "Edinburgh"];
+const longer = cities.filter((city)=>{
+  return city.length > 8;
+});
+console.log(longer); // [ "Liverpool", "Edinburgh" ]
+
+
 //~ Reduce Method
 // for e.g. mujhy ek array number kai saab ka Sum kerna hai. ab is kaam ko kerny kai method or tariky or bhi bhoth sary hai haam yha concept smjhny kai liya kr rahy hai.
 //  Reduce Return kerta hai single value

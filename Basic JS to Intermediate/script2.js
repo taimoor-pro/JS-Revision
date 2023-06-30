@@ -510,3 +510,27 @@ function personData({ firstName, gender }) {
 }
 
 personData(person);
+
+// -----------------------------------------------------------
+function listOfArrayItems(items) {
+  for (let i = 0; i <= items.length - 1; i++) {
+    console.log(i, items[i]);
+  }
+}
+
+const colors = ["Green", "Yellow", "Brown", "Orange", "Red"];
+listOfArrayItems(colors);
+
+var arrOfKeys = ["speed", "altitude", "color"];
+
+var drone = {
+    speed: 100,
+    altitude: 200,
+    color: "red"
+}
+for (var i = 0; i < arrOfKeys.length; i++) {
+  console.log(drone[arrOfKeys[i]]);
+}
+console.log(drone);
+
+
