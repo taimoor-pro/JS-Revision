@@ -8,6 +8,7 @@
 //  Function Inside Function
 // Functions returning Functions / Higher Order Function
 
+
 //  Hoisting
 //  Lexical Scope
 // Block Scope Vs Function Scope

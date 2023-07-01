@@ -10,6 +10,7 @@ Learning Objectives
     Build code that manipulates the DOM and handles events
     Write JavaScript code using more modern features like spread, rest, template strings, and modules
 
+//////////////////////////////////////////////////////////////////////////
 - Module 4: Testing and compatibility
 
 Here you will learn about Node.js and npm. And you will explore how to install npm packages and how to work with package.json. Furthermore, you will learn about testing in JavaScript and you'll code a simple unit test in Jest.
@@ -28,8 +29,7 @@ After completing this module, you will be able to:
 
     Demonstrate how to code a simple unit test in Jest
 
-      
-
+//////////////////////////////////////////////////////////////////////////
 Module 5: Graded assessment
 
 In the final module, you'll learn about the graded assessment. After you complete the individual units in this module, you'll synthesize the skills you gained from the course to create code for the "Little lemon receipt maker ". 
