@@ -3,6 +3,7 @@
 //& JEST 
 //& MOCKING
 // & Writing Tets with JEST
+//& TDD (Test Driven Development)
 
 // &> TESTING
 // JS code run correctly you will make sure
@@ -196,3 +197,35 @@ module.exports = addFive;
   // to check your directory nodemodules folder and updated package.json
 //$ npm audit fix
 //$ npm run test
+
+
+//& TDD (Test Driven Development)
+//* Every Piece of software is built according to formal and informal requirements.
+//TDD Streamlined process of writing code that will satisfy some requirement.
+
+/*
+* 1) Requirement > Feature of the APP
+* 2) Failing Test > Before App in built  
+* 3) Passing Test > Code to pass Test
+*/ 
+/*
+Traditional Development 
+    * Receive Requirement > Write Code > Test
+
+TDD 
+    * Receive Requirement > Write Failing Code > Write Code to make test pass > code passes test > improve workable code
+*/ 
+
+/*
+Following the TDD approach has many benefits. Select all the benefits following the TDD approach has for you as a developer. Check all that apply.
+
+Minimize regressions.
+Correct
+
+That is correct! The benefits the TDD approach has for you, as a developer, is Minimizing regression and the fact that your implementations can be tested using various inputs.
+
+Implementations can be tested using various inputs.
+Correct
+
+That is correct! The benefits the TDD approach has for you, as a developer, is Minimizing regression and the fact that your implementations can be tested using various inputs.
+*/
