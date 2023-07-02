@@ -86,7 +86,7 @@ expect(concateString("123", "456")).toBe("123456");
   //Satisfies requirement is given
 
 //^ Three types of testing 
-  //& e2e
+  //& e2e (end to end)
   //& Integration Testing 
   //& Unit Testing 
   
@@ -130,6 +130,25 @@ expect(concateString("123", "456")).toBe("123456");
 //*Some of the libraries to built and tackle the testing. for e.g. Some example of this libraries includes JASMINE, MOCHA, KARMA, qUINT.
 
 // -------------------------------------------------
+/*
+ * Key Benefits of JEST:
+
+    Compatible with NodeJS, React, Angular, VueJS, and other Babel-based projects
+    Standard syntax with documentation support
+    Very fast and highly performant
+    Managing tests with larger objects is possible using Live Snapshots
+
+    What are jest snapshots? Jest is a popular framework for testing JavaScript, and Jest snapshot is a method for creating an HTML entity map for regression tests.
+
+    What is Regression Testing? Explained with Test Cases, Tools ...
+Regression testing is a type of testing where you can verify that the changes made in the codebase do not impact the existing software functionality. For example, these code changes could include adding new features, fixing bugs, or updating a current feature.
+
+*When to use JEST:
+
+    Unit Testing
+    Integration Testing
+    End to End Testing
+ */
 //* JEST is a javascript testing framework.
 //* Its often use for testing code like React
 //* a JS library maintained by META
@@ -157,6 +176,7 @@ expect(concateString("123", "456")).toBe("123456");
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //& Writing Tets with JEST
+//* see file addFive.js then after created file addFive.test.js
 function addFive(val){
   return val + 5;
 }
@@ -166,4 +186,13 @@ module.exports = addFive;
 
 //check installed node & npm or not? 
 //$ npm -v && node -v
-
+// Check jest is installed or not?
+//$ jest -v
+// if not installed so run
+//$ npm init -y
+// see pakage.json edit:
+  // test: "jest"
+// npm install --save-dev jest
+  // to check your directory nodemodules folder and updated package.json
+//$ npm audit fix
+//$ npm run test
