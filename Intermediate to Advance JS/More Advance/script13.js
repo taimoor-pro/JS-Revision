@@ -1,5 +1,8 @@
 //& TESTING
 //& Types of Testing
+//& JEST 
+//& MOCKING
+// & Writing Tets with JEST
 
 // &> TESTING
 // JS code run correctly you will make sure
@@ -68,5 +71,99 @@ expect(concateString("123", "456")).toBe("123456");
 // =================================================================================================================
 
 //& Types of Testing  
+//* Confirming that software works as specified in the software's requirements.  
 // Three Most used types of testing 
-//^  
+// There are many aspects of software testing 
+
+//* Approaches:
+  // UX designer make sure the website designs looks and behaves as expected.
+
+  //For Project manager on a software project testing might mean that a specific piece of software works well. 
+
+//* Reason of CODE: 
+  //Does'nt break existing functionality  
+  //Bug-Free
+  //Satisfies requirement is given
+
+//^ Three types of testing 
+  //& e2e
+  //& Integration Testing 
+  //& Unit Testing 
+  
+//& e2e Testing E.g.
+  // Open your browser App and then testing application for.e.g. clicking on the login button and adding a item to the shopping cart.
+  //* E2E test are slowest and take the most time to setup and run.
+  //Several e.g.s framework of E2E is:
+    // webdriverJS
+    // Protector
+    // Cyprus
+
+//& Integration Testing 
+  //* Integration testing is a testing how part of your system interact with others parts of your system.
+  //In other words, it testing how separate parts of your apps work together.
+  //e.g.'s
+  // 1) React Testing Library
+  // 2) Enzyme
+
+  // Integration testing are faster and cheaper then E2E test.
+  //* but not as fast or as cheap as Unit testing.
+
+//& Unit Testing 
+//*Unit testing is the process of testing the smallest unit test of your source code in isolation.
+//A unit is the smallets pieace of code that you can test sperately from the rest of the app.
+//Practilcaly haam function or methods pr hi test kerty hai.
+
+//Self-contained 
+//fast to run
+//easy to wirte
+
+//* Testing Pyramid
+//^ UNIT TEST > Higest speed and lowest cost 
+//^ INTEGRATION > Average Speed and Expensive
+//^ E2E> Slowest and most expensive
+
+// ========================================================================================================================
+//& JEST
+// No bultin in Testing functions in JS you can use JS Testing framwork like JEST
+
+//in JEST> Code Covering, Mocking and snapshot testing  
+//*Some of the libraries to built and tackle the testing. for e.g. Some example of this libraries includes JASMINE, MOCHA, KARMA, qUINT.
+
+// -------------------------------------------------
+//* JEST is a javascript testing framework.
+//* Its often use for testing code like React
+//* a JS library maintained by META
+//* React code just allows you to test Babel,Typescript,node,angular,vue and various other frameworks. 
+//* JEST also support code Coverage is measured of what percentage of my code is covered by Test.
+
+//^Which of the following features does Jest provide? 
+/*
+ * Jest allows you to easily work with unit tests.
+ * Jest uses code coverage to measure what percentage of code is covered by tests.
+ * Jest lets developers test a range of code types.  
+ */
+
+// ----------------------------------------------------------
+//& MOCKING 
+//* Separating code from related dependencies during testing.
+//* to use mocking features to make sure that your unit testing Stand-Alone. 
+//* ye yai kerta hai kai ap kai Backend or frontend kai beech ki conection ko fast or check kerta hai kai data sahi tara se arha hai ya nai
+//* Some liabrary like SignOn.
+
+//^ In Jest:
+//* In bulit-mocking functions 
+//* Facilitates Asynchronous Code in Jest
+//* Jest Allows to snapshot testing (used by web developers to verify that there is no regression in the DOM)
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//& Writing Tets with JEST
+function addFive(val){
+  return val + 5;
+}
+addFive(2);
+
+module.exports = addFive;
+
+//check installed node & npm or not? 
+//$ npm -v && node -v
+
