@@ -6,8 +6,9 @@
 //  Recursive Function/ Recursion Function
 //  Callback Function
 //  Function Inside Function
-// Functions returning Functions / Higher Order Function
-
+//  Functions returning Functions / Higher Order Function
+//  Factory Function
+//  Constructor Function
 
 //  Hoisting
 //  Lexical Scope
@@ -534,4 +535,43 @@ for (var i = 0; i < arrOfKeys.length; i++) {
 }
 console.log(drone);
 
+// ~  Factory Function
+//* Yha object creation hoti hai jis ki ap request kerty ho or responce mai ap ko object milta hai. object create asy hoty hai ap ko funciton call kerna perta hai, output mai ap ko jaab ap return kerty hai jaab milta hai
+function createObject(length, breath){
+  return {
+    // length: length,
+    // breath: breath,
+    // or
+    length,
+    breath,
+    best(){
+      console.log("Best Way");
+    }
+  }
+}
 
+
+const obje = createObject(2,5); // function call ker di means ap ne request ker di object bnanay ki or usy obje name kai vaaribale mai store kerwa liya 
+
+console.log(obje);
+
+//~  Constructor Function
+//* Constructor function ek asa function hai jo kai ap ki properties ya method ko initialize ya define ker rha hai kai fala kai under ye ye daal dai or yhaa return kerny ki zarurt nahi.
+// constructor function mai -> use PascalNotation
+// jis bhi current position per ap kaam ker rahy ho usy haam this keywrod se show kerwaty hai 
+// or agr koi object nahi hia to ye this empty object ko show kerwa raha hai
+function ConstructorFunction(len, bre){
+    this.length = len;
+    this.breath = bre;
+    this.draw = function(){
+      console.log("Rectangle Grow");
+    }
+}
+
+// Object Creation using constructor
+// new keyword ap ko ek empty object deta hai 
+let rectangleObject = new ConstructorFunction(23, 44);
+
+
+
+//^ Kon sa best hai factory function ya Construction function  
